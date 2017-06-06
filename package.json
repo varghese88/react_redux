@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --history-api-fallback --content-base ./src --open"
+    "dev": "node_modules/.bin/webpack-dev-server --history-api-fallback --content-base ./src --open"
   },
   "keywords": [],
   "author": "",
